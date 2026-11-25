@@ -1,0 +1,773 @@
+[
+  {
+    "fixture": "01_plant_cell_gaussian_blur",
+    "degraded_file": "01_plant_cell_gaussian_blur.png",
+    "clean_file": "clean/01_plant_cell_gaussian_blur.png",
+    "degradation_type": "gaussian_blur",
+    "degraded_box_ids": [
+      "B3"
+    ],
+    "regions": [
+      {
+        "box_id": "B1",
+        "label_text": "Cell Wall",
+        "bbox_1000": [
+          187,
+          33,
+          257,
+          200
+        ],
+        "bbox_px": [
+          40,
+          150,
+          240,
+          206
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B2",
+        "label_text": "Chloroplast",
+        "bbox_1000": [
+          350,
+          33,
+          420,
+          208
+        ],
+        "bbox_px": [
+          40,
+          280,
+          250,
+          336
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B3",
+        "label_text": "Golgi Apparatus",
+        "bbox_1000": [
+          350,
+          775,
+          420,
+          966
+        ],
+        "bbox_px": [
+          930,
+          280,
+          1160,
+          336
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B4",
+        "label_text": "Nucleus",
+        "bbox_1000": [
+          550,
+          775,
+          620,
+          941
+        ],
+        "bbox_px": [
+          930,
+          440,
+          1130,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B_FLAT",
+        "label_text": "Flat Cytoplasm",
+        "bbox_1000": [
+          380,
+          480,
+          480,
+          580
+        ],
+        "bbox_px": [
+          576,
+          304,
+          696,
+          384
+        ],
+        "flat": true
+      }
+    ]
+  },
+  {
+    "fixture": "02_human_heart_motion_blur",
+    "degraded_file": "02_human_heart_motion_blur.png",
+    "clean_file": "clean/02_human_heart_motion_blur.png",
+    "degradation_type": "motion_blur",
+    "degraded_box_ids": [
+      "B2"
+    ],
+    "regions": [
+      {
+        "box_id": "B1",
+        "label_text": "Right Atrium",
+        "bbox_1000": [
+          225,
+          33,
+          295,
+          208
+        ],
+        "bbox_px": [
+          40,
+          180,
+          250,
+          236
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B2",
+        "label_text": "Right Ventricle",
+        "bbox_1000": [
+          600,
+          33,
+          670,
+          220
+        ],
+        "bbox_px": [
+          40,
+          480,
+          265,
+          536
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B3",
+        "label_text": "Left Atrium",
+        "bbox_1000": [
+          225,
+          775,
+          295,
+          941
+        ],
+        "bbox_px": [
+          930,
+          180,
+          1130,
+          236
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B4",
+        "label_text": "Aorta",
+        "bbox_1000": [
+          600,
+          775,
+          670,
+          925
+        ],
+        "bbox_px": [
+          930,
+          480,
+          1110,
+          536
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B_FLAT",
+        "label_text": "Flat Cytoplasm",
+        "bbox_1000": [
+          380,
+          480,
+          480,
+          580
+        ],
+        "bbox_px": [
+          576,
+          304,
+          696,
+          384
+        ],
+        "flat": true
+      }
+    ]
+  },
+  {
+    "fixture": "03_water_cycle_jpeg_corner",
+    "degraded_file": "03_water_cycle_jpeg_corner.png",
+    "clean_file": "clean/03_water_cycle_jpeg_corner.png",
+    "degradation_type": "jpeg_compression",
+    "degraded_box_ids": [
+      "B4"
+    ],
+    "regions": [
+      {
+        "box_id": "B1",
+        "label_text": "Evaporation",
+        "bbox_1000": [
+          225,
+          33,
+          295,
+          208
+        ],
+        "bbox_px": [
+          40,
+          180,
+          250,
+          236
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B2",
+        "label_text": "Condensation",
+        "bbox_1000": [
+          600,
+          33,
+          670,
+          216
+        ],
+        "bbox_px": [
+          40,
+          480,
+          260,
+          536
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B3",
+        "label_text": "Precipitation",
+        "bbox_1000": [
+          225,
+          766,
+          295,
+          950
+        ],
+        "bbox_px": [
+          920,
+          180,
+          1140,
+          236
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B4",
+        "label_text": "Surface Runoff",
+        "bbox_1000": [
+          725,
+          766,
+          795,
+          958
+        ],
+        "bbox_px": [
+          920,
+          580,
+          1150,
+          636
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B_FLAT",
+        "label_text": "Flat Cytoplasm",
+        "bbox_1000": [
+          380,
+          480,
+          480,
+          580
+        ],
+        "bbox_px": [
+          576,
+          304,
+          696,
+          384
+        ],
+        "flat": true
+      }
+    ]
+  },
+  {
+    "fixture": "04_animal_cell_occlusion",
+    "degraded_file": "04_animal_cell_occlusion.png",
+    "clean_file": "clean/04_animal_cell_occlusion.png",
+    "degradation_type": "partial_occlusion",
+    "degraded_box_ids": [
+      "B2"
+    ],
+    "regions": [
+      {
+        "box_id": "B1",
+        "label_text": "Cell Membrane",
+        "bbox_1000": [
+          212,
+          33,
+          282,
+          216
+        ],
+        "bbox_px": [
+          40,
+          170,
+          260,
+          226
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B2",
+        "label_text": "Mitochondria",
+        "bbox_1000": [
+          550,
+          33,
+          620,
+          208
+        ],
+        "bbox_px": [
+          40,
+          440,
+          250,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B3",
+        "label_text": "Ribosome",
+        "bbox_1000": [
+          225,
+          783,
+          295,
+          941
+        ],
+        "bbox_px": [
+          940,
+          180,
+          1130,
+          236
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B4",
+        "label_text": "Lysosome",
+        "bbox_1000": [
+          550,
+          783,
+          620,
+          941
+        ],
+        "bbox_px": [
+          940,
+          440,
+          1130,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B_FLAT",
+        "label_text": "Flat Cytoplasm",
+        "bbox_1000": [
+          380,
+          480,
+          480,
+          580
+        ],
+        "bbox_px": [
+          576,
+          304,
+          696,
+          384
+        ],
+        "flat": true
+      }
+    ]
+  },
+  {
+    "fixture": "05_photosynthesis_low_contrast",
+    "degraded_file": "05_photosynthesis_low_contrast.png",
+    "clean_file": "clean/05_photosynthesis_low_contrast.png",
+    "degradation_type": "low_contrast",
+    "degraded_box_ids": [
+      "B3"
+    ],
+    "regions": [
+      {
+        "box_id": "B1",
+        "label_text": "Sunlight",
+        "bbox_1000": [
+          212,
+          33,
+          282,
+          191
+        ],
+        "bbox_px": [
+          40,
+          170,
+          230,
+          226
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B2",
+        "label_text": "Chlorophyll",
+        "bbox_1000": [
+          550,
+          33,
+          620,
+          208
+        ],
+        "bbox_px": [
+          40,
+          440,
+          250,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B3",
+        "label_text": "Glucose",
+        "bbox_1000": [
+          225,
+          783,
+          295,
+          941
+        ],
+        "bbox_px": [
+          940,
+          180,
+          1130,
+          236
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B4",
+        "label_text": "Oxygen",
+        "bbox_1000": [
+          550,
+          783,
+          620,
+          941
+        ],
+        "bbox_px": [
+          940,
+          440,
+          1130,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B_FLAT",
+        "label_text": "Flat Cytoplasm",
+        "bbox_1000": [
+          380,
+          480,
+          480,
+          580
+        ],
+        "bbox_px": [
+          576,
+          304,
+          696,
+          384
+        ],
+        "flat": true
+      }
+    ]
+  },
+  {
+    "fixture": "06_digestive_cutoff_border",
+    "degraded_file": "06_digestive_cutoff_border.png",
+    "clean_file": "clean/06_digestive_cutoff_border.png",
+    "degradation_type": "cutoff_border",
+    "degraded_box_ids": [
+      "B3"
+    ],
+    "regions": [
+      {
+        "box_id": "B1",
+        "label_text": "Esophagus",
+        "bbox_1000": [
+          212,
+          33,
+          282,
+          200
+        ],
+        "bbox_px": [
+          40,
+          170,
+          240,
+          226
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B2",
+        "label_text": "Stomach",
+        "bbox_1000": [
+          550,
+          33,
+          620,
+          191
+        ],
+        "bbox_px": [
+          40,
+          440,
+          230,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B3",
+        "label_text": "Small Intestine",
+        "bbox_1000": [
+          275,
+          870,
+          345,
+          1000
+        ],
+        "bbox_px": [
+          1045,
+          220,
+          1200,
+          276
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B4",
+        "label_text": "Liver",
+        "bbox_1000": [
+          575,
+          783,
+          645,
+          933
+        ],
+        "bbox_px": [
+          940,
+          460,
+          1120,
+          516
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B_FLAT",
+        "label_text": "Flat Cytoplasm",
+        "bbox_1000": [
+          380,
+          480,
+          480,
+          580
+        ],
+        "bbox_px": [
+          576,
+          304,
+          696,
+          384
+        ],
+        "flat": true
+      }
+    ]
+  },
+  {
+    "fixture": "07_electric_circuit_small_text",
+    "degraded_file": "07_electric_circuit_small_text.png",
+    "clean_file": "clean/07_electric_circuit_small_text.png",
+    "degradation_type": "tiny_text",
+    "degraded_box_ids": [
+      "B3"
+    ],
+    "regions": [
+      {
+        "box_id": "B1",
+        "label_text": "Battery",
+        "bbox_1000": [
+          212,
+          33,
+          282,
+          183
+        ],
+        "bbox_px": [
+          40,
+          170,
+          220,
+          226
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B2",
+        "label_text": "Switch",
+        "bbox_1000": [
+          550,
+          33,
+          620,
+          183
+        ],
+        "bbox_px": [
+          40,
+          440,
+          220,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B3",
+        "label_text": "Resistor",
+        "bbox_1000": [
+          250,
+          783,
+          320,
+          941
+        ],
+        "bbox_px": [
+          940,
+          200,
+          1130,
+          256
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B4",
+        "label_text": "Voltmeter",
+        "bbox_1000": [
+          550,
+          783,
+          620,
+          941
+        ],
+        "bbox_px": [
+          940,
+          440,
+          1130,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B_FLAT",
+        "label_text": "Flat Cytoplasm",
+        "bbox_1000": [
+          380,
+          480,
+          480,
+          580
+        ],
+        "bbox_px": [
+          576,
+          304,
+          696,
+          384
+        ],
+        "flat": true
+      }
+    ]
+  },
+  {
+    "fixture": "08_atom_shells_full_blur",
+    "degraded_file": "08_atom_shells_full_blur.png",
+    "clean_file": "clean/08_atom_shells_full_blur.png",
+    "degradation_type": "full_blur",
+    "degraded_box_ids": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "regions": [
+      {
+        "box_id": "B1",
+        "label_text": "Proton",
+        "bbox_1000": [
+          212,
+          33,
+          282,
+          183
+        ],
+        "bbox_px": [
+          40,
+          170,
+          220,
+          226
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B2",
+        "label_text": "Neutron",
+        "bbox_1000": [
+          550,
+          33,
+          620,
+          191
+        ],
+        "bbox_px": [
+          40,
+          440,
+          230,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B3",
+        "label_text": "Electron Shell",
+        "bbox_1000": [
+          225,
+          766,
+          295,
+          950
+        ],
+        "bbox_px": [
+          920,
+          180,
+          1140,
+          236
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B4",
+        "label_text": "Nucleus",
+        "bbox_1000": [
+          550,
+          783,
+          620,
+          933
+        ],
+        "bbox_px": [
+          940,
+          440,
+          1120,
+          496
+        ],
+        "flat": false
+      },
+      {
+        "box_id": "B_FLAT",
+        "label_text": "Flat Cytoplasm",
+        "bbox_1000": [
+          380,
+          480,
+          480,
+          580
+        ],
+        "bbox_px": [
+          576,
+          304,
+          696,
+          384
+        ],
+        "flat": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[project]
+name = "visionguard-tutor-backend"
+version = "0.1.0"
+description = "VisionGuard Tutor FastAPI backend with Gemini 2.5 Flash Visual Auditor & Guardrail Lock"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic>=2.9.0",
+    "pydantic-settings>=2.6.0",
+    "sqlalchemy>=2.0.36",
+    "alembic>=1.14.0",
+    "argon2-cffi>=23.1.0",
+    "pyjwt>=2.9.0",
+    "python-multipart>=0.0.17",
+    "email-validator>=2.2.0",
+    "opencv-python-headless>=4.10.0.84",
+    "pillow>=11.0.0",
+    "numpy>=2.1.0",
+    "google-genai>=1.0.0",
+    "reportlab>=4.2.5",
+    "rapidocr-onnxruntime>=1.4.0",
+    "onnxruntime>=1.19.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "httpx>=0.27.2",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
